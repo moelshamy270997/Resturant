@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -9,5 +9,10 @@
 </head>
 <body>
     <h1>Hello from Index WebPage</h1>
+
+    <form method="post" th:action="@{/paypal/pay}">
+        <button type="submit">Process Payment</button>
+    </form>
+
 </body>
 </html>

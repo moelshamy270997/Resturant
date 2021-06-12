@@ -12,7 +12,6 @@ public class AppUserController {
     private String set;
     private final AppUserService appUserService;
 
-
     @Autowired
     public AppUserController(AppUserService appUserService) {
         this.appUserService = appUserService;

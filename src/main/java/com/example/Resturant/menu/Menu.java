@@ -44,11 +44,4 @@ public class Menu {
     )
     private Set<Categories> categoriesSet = new HashSet<>();
 
-
-    public Menu(String name, String description, Double price, Double calories) {
-        this.name = name;
-        this.description = description;
-        this.price = price;
-        this.calories = calories;
-    }
 }

@@ -29,7 +29,6 @@ public class RegistrationService {
             throw new IllegalStateException("Email not valid");
         }
 
-
         AppUser newAppUser = new AppUser(
                 request.getFirstName(),
                 request.getLastName(),
